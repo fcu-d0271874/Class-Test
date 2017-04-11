@@ -40,6 +40,23 @@
             android:layout_below="@+id/textView2"
             android:ems="10"
             android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="12dp"
+            android:text="Password" />
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:ems="10"
+            android:inputType="textPassword" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
